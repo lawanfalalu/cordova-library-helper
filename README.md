@@ -6,7 +6,7 @@ Library Helper is a cordova plugin to help insert videos or images into the nati
 Install
 =======
 
-	cordova plugin add cordova-library-helper
+	cordova plugin add https://github.com/FlyingDonkeyDev/cordova-library-helper.git
 
 Usage
 =====
@@ -28,6 +28,7 @@ Get Thumbnail and Duration
 
 Change Log
 ==========
+
 27/04/2016 - Added the ability to get video thumbnails and duration for Android.
 
 22/10/2015 - Added the ability to get video thumbnails and duration.
