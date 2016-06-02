@@ -9,7 +9,7 @@ module.exports = {
 	saveImageToLibrary: function (onSuccess, onError, path, albumName) {
 		exec(onSuccess, onError, 'LibraryHelper', 'saveImageToLibrary', [path, albumName]);
 	},
-	saveVideoToLibrary: function (onSuccess, onError, path, albumName) {
-		exec(onSuccess, onError, 'LibraryHelper', 'saveVideoToLibrary', [path, albumName]);
+	saveVideoToLibrary: function (onSuccess, onError, path) {
+		exec(onSuccess, onError, 'LibraryHelper', 'saveVideoToLibrary', [path]);
 	}
 };
