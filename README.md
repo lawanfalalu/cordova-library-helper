@@ -15,7 +15,7 @@ Save Photo to Camera Roll
 	LibraryHelper.saveImageToLibrary(onSuccess, onError, path, albumName); 
 Save Video to Camera Roll
 -------------------------
-	LibraryHelper.saveVideoToLibrary(onSuccess, onError, path, albumName);                                               
+	LibraryHelper.saveVideoToLibrary(onSuccess, onError, path);
 Get Thumbnail and Duration
 ---------------------------
         LibraryHelper.getVideoInfo(onSuccess, onError, path);
