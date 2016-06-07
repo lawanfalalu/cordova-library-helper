@@ -45,7 +45,7 @@
 
 - (void)saveVideoToLibrary:(CDVInvokedUrlCommand *)command {
     NSString* path = [command.arguments objectAtIndex: 0];
-    NSString* albumName = [command.arguments objectAtIndex: 1];
+    //NSString* albumName = [command.arguments objectAtIndex: 1];
     
     CDVPluginResult* pluginResult = nil;
 
